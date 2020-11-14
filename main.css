@@ -1,0 +1,396 @@
+/* Simple CSS Reset - START */
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Simple CSS Reset - END */
+
+body {
+  font-family: 'Roboto', monospace;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  line-height: 2rem;
+}
+
+p {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: rgba(18, 41, 93, 1);
+  padding: 50px 30px;
+}
+
+section.light {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+section .container {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+section .container-column {
+  flex-direction: column;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+ 
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  color: #333333;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: inherit 10px;
+  padding-top: 150px;
+}
+
+#hero .header-content {
+  position: relative;
+  text-align: center;
+}
+
+#hero.header-logo {
+  width: 60%;
+  margin-top: 30px;
+}
+
+#hero .header-detail-text {
+  margin: 40px 0;
+  font-size: 1.2rem;
+}
+
+#hero .header-image {
+  display: none;
+}
+
+#hero .hero-btn {
+  background-color: #183661;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hero .hero-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#about .container {
+  align-items: flex-start;
+}
+
+#about .container div:first-of-type {
+  margin-right: 50px;
+}
+
+#about ul {
+  list-style: none;
+  font-weight: inherit;
+}
+
+#about ul li {
+  margin: 20px 0;
+}
+
+#about ul li:before {
+  font-size: 1.4rem;
+  content: '✓';
+  margin-right: 10px;
+}
+
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.partners-container{
+  color: black;
+  background: white;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  outline: 15px double white;
+  margin: 50px 20px;
+}
+.partners-container .sponsor img{
+  width: 100%;
+}
+.partners-container .sponsor.main{
+
+  margin: auto;
+
+}
+.partners-container .sponsor.gold{
+  width: 75%;
+  margin: 20px auto;
+}
+.partners-container .cooperators{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.partners-container .cooperators .sponsor{
+  width: 40%;
+}
+.partners-container .cooperators2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.partners-container .cooperators2 .sponsor{
+  width: 18%;
+}
+
+.register-container{
+  color: black;
+
+  text-align: center;
+  box-sizing: border-box;
+  margin: 50px 20px;
+  width: 100%
+}
+
+#sss li{
+  margin-top: 50px;
+}
+
+#sss li ul li{
+  margin-top: 0px; 
+}
+
+#sss li ul{
+  list-style-type:square;
+  margin-left: 30px;
+}
+/* .register-container h3{
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-size: 1.4em;
+}
+.register-container .youtube-btn{
+  margin: 30px auto;
+  padding: 20px;
+  width: 200px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+.register-container .instagram-btn{
+  margin: 20px auto;
+  padding: 20px;
+  width: 200px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+  display:inline-block;
+  color: black;
+}
+.register-container a{
+  text-decoration: none;
+  color: rgb(255,255,255);
+  font-weight: 700;
+  font-size: 1.6em;
+} */
+
+#register{
+  padding-bottom: 0px;
+}
+
+
+.instagram{
+  margin: auto;
+  text-align: center;
+}
+
+.team-container.clearfix{
+  padding-bottom: 25px;
+}
+
+.team-member{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 15px;
+  border: 4px solid #E2FFFA;
+}
+.team-member .image{
+  width: 30%;
+}
+.team-member .image img{
+  width: 80%;
+  margin: 4px 10%;
+  border-radius: 12px;
+}
+.team-member .text{
+  width: 70%;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.team-member .text a{
+  text-decoration: none;
+  color: white;
+}
+.map-container{
+  height: 400px;
+  width: 100%;
+}
+.footer-container{
+  text-align: center;
+  display: block;
+}
+.footer-container img{
+  width: 60%;
+  margin: 20px auto;
+}
+@media screen and (min-width: 767px) {
+  #hero .hero-title{
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  #hero .header-image{
+    display: block;
+  }
+
+  #hero .header-text{
+    padding-right: 50px;
+  }
+
+  #about .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 600px){
+  html {
+    font-size: 18px;
+  }
+
+  .programs-container{
+      width: 600px;
+      margin: 0 auto;
+  }
+}
+@media screen and (min-width: 767px){
+
+  section{
+    padding: 100px 30px;
+  }
+
+  .partners-container .sponsor.main{
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+  }
+
+  .partners-container .sponsor.aws{
+    width: 150%;
+    margin-top: 25px;
+  }
+  
+  .partners-container .sponsor.insider{
+    width: 200%;
+    padding-right: 10%;
+    margin-top: 25px;
+    /* padding-left: 10%; */
+    
+  }
+  .partners-container .sponsor.gold{
+      width: 65%;
+      margin: 20px auto;
+  }
+  .partners-container h3{
+      font-size: 1.6em;
+      font-weight: 700;
+      margin: 40px 0 20px 0;
+  }
+  .footer-container img{
+      width: 50%;
+      margin: 25px auto 10px auto;
+  }
+
+  .register-container .br-mobile{
+      display: none;
+  }
+}
+@media screen and (min-width: 960px){
+  .team-member{
+      float: left;
+      width: 48%;
+      margin: 15px 1%;
+  }
+  .footer-container img{
+      width: 40%;
+      margin: 30px auto 10px auto;
+  }
+}
+
