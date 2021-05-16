@@ -1,6 +1,6 @@
-# Hack Bogazici Website
+# Boğaziçi Gamejam Website
 
-Static website for Hack Bogazici event.
+Static website for Boğaziçi Gamejam event.
 
 ## Useful Resources
 
