@@ -203,6 +203,10 @@ section h2 {
   width: 18%;
 }
 
+.partners-container .sponsor.main .integralevents img {
+  width: 70%;
+}
+
 .register-container{
   color: black;
 
@@ -362,8 +366,24 @@ section h2 {
     padding-right: 10%;
     margin-top: 25px;
     /* padding-left: 10%; */
+  }
+
+  .partners-container .sponsor.integralevents {
+    width: 100%;
+  }
+
+  .partners-container .sponsor.taleworlds{
+    width: 50%;
+    /* padding-right: 10%; */
+    margin-top: 25px;
+    /* padding-left: 10%; */
     
   }
+
+  .partners-container .sponsor.madrooster {
+    width: 50%;
+  }
+
   .partners-container .sponsor.gold{
       width: 65%;
       margin: 20px auto;
@@ -394,3 +414,6 @@ section h2 {
   }
 }
 
+a.sponsor {
+  margin: 10px;
+}
