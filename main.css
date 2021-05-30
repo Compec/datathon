@@ -384,6 +384,10 @@ section h2 {
     width: 50%;
   }
 
+  .partners-container .sponsor.webtekno {
+    width: 65%;
+  }
+
   .partners-container .sponsor.gold{
       width: 65%;
       margin: 20px auto;
