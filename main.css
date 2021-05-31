@@ -191,6 +191,11 @@ section h2 {
   margin: auto;
 
 }
+
+.partners-container img.unitytr {
+  width: 50%;
+}
+
 .partners-container .sponsor.gold{
   width: 75%;
   margin: 20px auto;
@@ -404,6 +409,14 @@ section h2 {
 
   .partners-container .sponsor.teknolojiorg {
     width: 60%;
+  }
+
+  .partners-container .sponsor.unitytr {
+    width: 20%;
+  }
+
+  .partners-container img.unitytr {
+    width: 100%;
   }
 
   .partners-container .sponsor.gold{
