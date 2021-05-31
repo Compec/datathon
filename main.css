@@ -177,6 +177,15 @@ section h2 {
 .partners-container .sponsor img{
   width: 100%;
 }
+
+.partners-container .sponsor img.bottom {
+  margin-bottom: 40px;
+}
+
+.partners-container .sponsor img.mid {
+  margin-bottom: 20px;
+}
+
 .partners-container .sponsor.main{
 
   margin: auto;
@@ -373,9 +382,9 @@ section h2 {
   }
 
   .partners-container .sponsor.taleworlds{
-    width: 50%;
+    width: 70%;
     /* padding-right: 10%; */
-    margin-top: 25px;
+    margin-bottom: 40px;
     /* padding-left: 10%; */
     
   }
@@ -386,6 +395,14 @@ section h2 {
 
   .partners-container .sponsor.webtekno {
     width: 65%;
+  }
+
+  .partners-container .sponsor.zindhu {
+    width: 60%;
+  }
+
+  .partners-container .sponsor.ykteknoloji {
+    width: 60%;
   }
 
   .partners-container .sponsor.gold{
