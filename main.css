@@ -362,6 +362,7 @@ section h2 {
   .partners-container .sponsor.main{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 50px 20px;
   }
 
@@ -401,7 +402,7 @@ section h2 {
     width: 60%;
   }
 
-  .partners-container .sponsor.ykteknoloji {
+  .partners-container .sponsor.teknolojiorg {
     width: 60%;
   }
 
