@@ -419,6 +419,10 @@ section h2 {
     width: 100%;
   }
 
+  .partners-container .sponsor.indieway {
+    width: 50%;
+  }
+
   .partners-container .sponsor.gold{
       width: 65%;
       margin: 20px auto;
