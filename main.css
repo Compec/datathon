@@ -423,6 +423,10 @@ section h2 {
     width: 50%;
   }
 
+  .partners-container .sponsor.vardiya {
+    width: 50%;
+  }
+
   .partners-container .sponsor.gold{
       width: 65%;
       margin: 20px auto;
