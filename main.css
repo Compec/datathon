@@ -431,6 +431,10 @@ section h2 {
     width: 55%;
   }
 
+  .partners-container .sponsor.gram {
+    width: 70%;
+  }
+
   .partners-container .sponsor.gold{
       width: 65%;
       margin: 20px auto;
