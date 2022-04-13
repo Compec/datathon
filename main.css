@@ -167,6 +167,8 @@ section h2 {
 
 .partners-container{
   color: black;
+  display: flex;
+  flex-direction: column;
   background: white;
   text-align: center;
   padding: 40px;
@@ -177,25 +179,13 @@ section h2 {
 .partners-container .sponsor img{
   width: 100%;
 }
-
-.partners-container .sponsor img.bottom {
-  margin-bottom: 40px;
-}
-
-.partners-container .sponsor img.mid {
-  margin-bottom: 20px;
-}
-
 .partners-container .sponsor.main{
 
+  display: flex;
+  flex-direction: row;
   margin: auto;
 
 }
-
-.partners-container img.unitytr {
-  width: 50%;
-}
-
 .partners-container .sponsor.gold{
   width: 75%;
   margin: 20px auto;
@@ -215,10 +205,6 @@ section h2 {
 }
 .partners-container .cooperators2 .sponsor{
   width: 18%;
-}
-
-.partners-container .sponsor.main .integralevents img {
-  width: 70%;
 }
 
 .register-container{
