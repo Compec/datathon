@@ -4,22 +4,39 @@ html {
   font-size: 14px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -33,7 +50,7 @@ a {
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -78,7 +95,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
@@ -87,7 +104,7 @@ section h2 {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
- 
+
 #hero {
   width: 100%;
   min-height: 100vh;
@@ -165,67 +182,80 @@ section h2 {
   z-index: -1;
 }
 
-.partners-container{
+.partners-container {
   color: black;
   display: flex;
   flex-direction: column;
   background: white;
   text-align: center;
-  padding: 40px;
+  padding: 35px;
   box-sizing: border-box;
   outline: 15px double white;
   margin: 50px 20px;
+  justify-content: center;
+  align-items: center;
 }
-.partners-container .sponsor img{
-  width: 100%;
+.partners-container .sponsor img {
+  /* border: 2px solid green; */
 }
-.partners-container .sponsor.main{
+.partners-text {
+  display: inline-block;
+  margin-bottom: 16%;
+  font-size: 1rem;
+}
 
+.sponsor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-container .sponsor.main {
   display: flex;
   flex-direction: row;
-  margin: auto;
-
+  margin: 0 auto;
+  width: 100%;
 }
-.partners-container .sponsor.gold{
+.partners-container .sponsor.gold {
   width: 75%;
   margin: 20px auto;
 }
-.partners-container .cooperators{
+.partners-container .cooperators {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.partners-container .cooperators .sponsor{
+.partners-container .cooperators .sponsor {
   width: 40%;
 }
-.partners-container .cooperators2{
+.partners-container .cooperators2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.partners-container .cooperators2 .sponsor{
+.partners-container .cooperators2 .sponsor {
   width: 18%;
 }
 
-.register-container{
+.register-container {
   color: black;
 
   text-align: center;
   box-sizing: border-box;
   margin: 50px 20px;
-  width: 100%
+  width: 100%;
 }
 
-#sss li{
+#sss li {
   margin-top: 50px;
 }
 
-#sss li ul li{
-  margin-top: 0px; 
+#sss li ul li {
+  margin-top: 0px;
 }
 
-#sss li ul{
-  list-style-type:square;
+#sss li ul {
+  list-style-type: square;
   margin-left: 30px;
 }
 /* .register-container h3{
@@ -261,21 +291,20 @@ section h2 {
   font-size: 1.6em;
 } */
 
-#register{
+#register {
   padding-bottom: 0px;
 }
 
-
-.instagram{
+.instagram {
   margin: auto;
   text-align: center;
 }
 
-.team-container.clearfix{
+.team-container.clearfix {
   padding-bottom: 25px;
 }
 
-.team-member{
+.team-member {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,49 +312,58 @@ section h2 {
   box-sizing: border-box;
   padding: 10px;
   border-radius: 15px;
-  border: 4px solid #E2FFFA;
+  border: 4px solid #e2fffa;
 }
-.team-member .image{
+.team-member .image {
   width: 30%;
 }
-.team-member .image img{
+.team-member .image img {
   width: 80%;
   margin: 4px 10%;
   border-radius: 12px;
 }
-.team-member .text{
+.team-member .text {
   width: 70%;
   box-sizing: border-box;
   padding-left: 10px;
 }
-.team-member .text a{
+.team-member .text a {
   text-decoration: none;
   color: white;
 }
-.map-container{
+.map-container {
   height: 400px;
   width: 100%;
 }
-.footer-container{
+.footer-container {
   text-align: center;
   display: block;
 }
-.footer-container img{
+.footer-container img {
   width: 60%;
   margin: 20px auto;
 }
+
+.links {
+  margin-top: 4rem;
+}
+
+.problematic {
+  margin-bottom: 10rem;
+}
+
 @media screen and (min-width: 767px) {
-  #hero .hero-title{
+  #hero .hero-title {
     display: block;
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
 
-  #hero .header-image{
+  #hero .header-image {
     display: block;
   }
 
-  #hero .header-text{
+  #hero .header-text {
     padding-right: 50px;
   }
 
@@ -334,35 +372,49 @@ section h2 {
   }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
   html {
     font-size: 18px;
   }
 
-  .programs-container{
-      width: 600px;
-      margin: 0 auto;
+  .programs-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .links {
+    margin-top: 4rem;
   }
 }
-@media screen and (min-width: 767px){
-
-  section{
+@media screen and (min-width: 767px) {
+  section {
     padding: 100px 30px;
   }
 
-  .partners-container .sponsor.main{
+  .links {
+    margin-top: 4rem;
+  }
+
+  .partners-container .sponsor.main {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 20px;
   }
 
-  .partners-container .sponsor.aws{
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partners-container .sponsor.aws {
     width: 150%;
     margin-top: 25px;
   }
-  
-  .partners-container .sponsor.insider{
+
+  .partners-container .sponsor.insider {
     width: 200%;
     padding-right: 10%;
     margin-top: 25px;
@@ -373,12 +425,11 @@ section h2 {
     width: 100%;
   }
 
-  .partners-container .sponsor.taleworlds{
+  .partners-container .sponsor.taleworlds {
     width: 70%;
     /* padding-right: 10%; */
     margin-bottom: 40px;
     /* padding-left: 10%; */
-    
   }
 
   .partners-container .sponsor.madrooster {
@@ -421,36 +472,65 @@ section h2 {
     width: 70%;
   }
 
-  .partners-container .sponsor.gold{
-      width: 65%;
-      margin: 20px auto;
+  .partners-container .sponsor.gold {
+    width: 65%;
+    margin: 20px auto;
   }
-  .partners-container h3{
-      font-size: 1.6em;
-      font-weight: 700;
-      margin: 40px 0 20px 0;
+  .partners-container h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
   }
-  .footer-container img{
-      width: 50%;
-      margin: 25px auto 10px auto;
+  .footer-container img {
+    width: 50%;
+    margin: 25px auto 10px auto;
   }
 
-  .register-container .br-mobile{
-      display: none;
+  .register-container .br-mobile {
+    display: none;
   }
 }
-@media screen and (min-width: 960px){
-  .team-member{
-      float: left;
-      width: 48%;
-      margin: 15px 1%;
+@media screen and (min-width: 960px) {
+  .team-member {
+    float: left;
+    width: 48%;
+    margin: 15px 1%;
   }
-  .footer-container img{
-      width: 40%;
-      margin: 30px auto 10px auto;
+  .footer-container img {
+    width: 40%;
+    margin: 30px auto 10px auto;
   }
 }
 
 a.sponsor {
   margin: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .partners-container {
+    width: 100%;
+  }
+
+  .sponsor-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .sponsor-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
 }
