@@ -2,7 +2,7 @@
 
 Static website for Boğaziçi Gamejam event.
 
-## Useful Resources
+## Useful Resources.
 
 * [What is Separation of Concerns?](http://www.svennerberg.com/2012/11/separation-of-concerns/)
 * [3 Key Software Principles](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161)
